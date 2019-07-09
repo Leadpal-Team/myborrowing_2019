@@ -206,8 +206,8 @@ function redrawSliderGradient(){
     //Sets the background to the thumb position
     jQuery(input).css('background-image',
 		'-webkit-gradient(linear, left top, right top, '
-		+ 'color-stop(' + val + ', #003BDE), '
-		+ 'color-stop(' + val + ', #ffffff)'
+		+ 'color-stop(' + val + ', #151515), '
+		+ 'color-stop(' + val + ', #f5f5f5)'
 		+ ')'
 		);
   }

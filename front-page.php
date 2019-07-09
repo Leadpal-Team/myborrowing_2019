@@ -8,15 +8,7 @@
 
 get_header(); ?>
 
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-header">Wordpress quick startup framework</h2>
-				<p>Created by the pdg team</p>
-      </div>
-    </div>
-  </div>
-</section>
+<!-- Section - How it Works -->
+<?php include_once 'inc/components/section-how-it-works.php'; ?>
 
 <?php get_footer(); ?>

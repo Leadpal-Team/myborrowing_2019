@@ -22,14 +22,14 @@
 	define('COMPANY_INFORMATION_TRADING_NAME', 'Company Pty Ltd');
 
 	//Loan Variables
-	define('SACC_LOAN_MIN', "300");
+	define('SACC_LOAN_MIN', "500");
 	define('SACC_LOAN_MAX', "2000");
 	define('MACC_LOAN_MIN', "2000");
-	define('MACC_LOAN_MAX', "4600");
-	define('LACC_LOAN_MIN', "5000");
-	define('LACC_LOAN_MAX', "10000");
+	define('MACC_LOAN_MAX', "3000");
+	define('LACC_LOAN_MIN', "3000");
+	define('LACC_LOAN_MAX', "4600");
 	define('LOAN_MIN', SACC_LOAN_MIN);
-	define('LOAN_MAX', LACC_LOAN_MAX);
+	define('LOAN_MAX', MACC_LOAN_MAX);
 	define('LOAN_CURRENCY_UNIT', '$');
 	define('LOAN_AMOUNT_STEP', '100');
 	define('LOAN_AMOUNT_DEFAULT_VALUE', '2500');
@@ -228,8 +228,8 @@ function twentyseventeen_colors_css_wrap() {
 function twentyseventeen_scripts() {
 
 	// Bootstrap
-	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
-	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), '4.1.3', true );
+	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array() );
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('1'), '4.1.3', true );
 
 	// Theme stylesheet.
 	wp_enqueue_style( 'twentyseventeen-style', get_stylesheet_uri(), array('bootstrap-css') );
@@ -239,6 +239,9 @@ function twentyseventeen_scripts() {
 
 	//Loan Calculator Controller JS
 	wp_enqueue_script( 'calc-js', get_template_directory_uri() . '/assets/js/calc.js', array(), '4.1.3', true );
+
+	// Jquery
+	wp_enqueue_script( 'custom-jquery', get_theme_file_uri( 'assets/js/jquery.min.js'), array(), '1.0', true);
 
 	//WOW JS
 	//wp_enqueue_script( 'wow-js', get_template_directory_uri() . '/assets/js/wow.js');

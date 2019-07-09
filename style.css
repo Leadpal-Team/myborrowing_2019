@@ -1,5 +1,5 @@
 /*
-Theme Name: Theme Name
+Theme Name: My Borrowing
 Author: PrettyDamnGood
 Author URI: https://www.prettydamngood.com.au/
 Description: Site Description
@@ -57,24 +57,23 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
 
 html{
 	/* Colours */
-	--color-primary: #5A1C8D;
-	--color-secondary: #162D5A;
+	--color-primary: #FAC640;
+	--color-secondary: #3A3A3A;
 	--color-white: #FFFFFF;
-	--color-black: #000000;
-	--color-light-gray: #F9FAFB;
-	--color-dark-gray: gray;
-	--font-primary: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
-	--font-secondary: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
-	--link-hover-color: #003BDE;
-	--selection-color: #FFD500;
+	--color-black: #151515;
+	--color-light-gray: #FBFBFB;
+	--color-dark-gray: #9F9F9F;
+	--font-primary: 'Biryani', Helvetica, Arial, sans-serif;
+	--font-secondary: 'Biryani', Helvetica, Arial, sans-serif;
+	--link-hover-color: #FAC640;
+	--selection-color: #FAC640;
 
 	/* Others */
-	--site-shadow: 0px 4px 12px rgba(196, 196, 196, 0.25);
-	--site-shadow-hover: 0px 4px 12px rgba(196, 196, 196, 0.25);
-	--site-shadow-purple: 0px 4px 12px rgba(90, 28, 141, 0.25);
-	--button-border-radius: 99rem;
-	--button-padding: 1rem 2rem;
-	--button-padding-mobile:  1rem 2rem;
+	--site-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+	--site-shadow-hover: 0px 0px 8px rgba(0, 0, 0, 0.15);
+	--button-border-radius: 5px;
+	--button-padding: 10px 20px;
+	--button-padding-mobile: 10px 20px;
 	--site-transition: 0.125s;
 
 	text-rendering: optimizeLegibility;
@@ -99,7 +98,7 @@ body{
 }
 
 .color--secondary{
-	color: var(--color-secondary);
+	color: var(--color-secondary);i
 }
 
 .background--secondary{
@@ -130,11 +129,11 @@ body{
 	background-color: var(--white);
 }
 
-.color--color-black{
+.color--black{
 	color: var(--color-black);
 }
 
-.background--color-black{
+.background--black{
 	background-color: var(--color-black);
 }
 
@@ -144,35 +143,24 @@ body{
 
 body{
 	font-size: 16px; /*Sets base pixel size for em units*/
-}
-
-h1, h2, .h1, .h2, .page-title {
 	font-family: var(--font-primary);
-	font-weight: 900;
+	color: var(--color-black);
 }
 
-h3, h4, h5, .h3, .h4, .h5, p, .preheader, .nav-item, .section-header, .testimonial-text, td, li{
-	font-family: var(--font-secondary);
+h1 {
+	font-size: 2.75rem;
 }
 
-.page-title{
-	font-size: 3.5rem; /* 56px */
+h2 {
+	font-size: 2rem;
 }
 
-.feature-header{
-	font-size: 2.1875rem; /* 35px */
+h3 {
+	font-size: 1.5rem;
 }
 
-.section-header, .testimonial-text{
-	font-size: 1.75rem; /* 28px */
-}
-
-.page-title, .preheader, .preheader--small, .section-header{
-	margin-bottom: 1.5625rem; /* 1.5625rem */
-}
-
-.preheader{
-	font-size: 1.25rem; /* 1.25rem */
+h4 {
+	font-size: 1.25rem;
 }
 
 p, .nav-item{
@@ -201,7 +189,7 @@ p, .nav-item{
 	font-weight: 300;
 }
 
-.font-weight--400{
+.font-weight--400, .regular{
 	font-weight: 400;
 }
 
@@ -213,7 +201,7 @@ p, .nav-item{
 	font-weight: 600;
 }
 
-.bold, .font-weight--700  {
+strong, .bold, .font-weight--700  {
 	font-weight: 700;
 }
 
@@ -242,6 +230,39 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required, input.wpcf7-for
     border: 1px solid;
 		padding: 8pt;
 		width: 100%;
+}
+
+#loan-amount {
+	width:100%;
+	-webkit-appearance: none;
+	height: 10px;
+	background: var(--color-light-gray);
+	outline: none;
+	opacity: 1;
+	border-radius: 99rem;
+	}
+
+#loan-amount::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	appearance: none;
+	width: 30px;
+	height: 30px;
+	border: 8px solid var(--color-black); 
+	border-radius: 99rem;
+	background: var(--color-primary);
+	cursor: pointer;
+}
+
+#loan-amount:-moz-range-thumb {
+	width: 40px;
+	height: 40px;
+	border-radius: 0;
+	background: var(--color-black);
+	cursor: pointer;
+}
+
+#loan-term {
+	border: 2px solid var(--color-black);
 }
 
 /*--------------------------------------------------------------
@@ -421,7 +442,7 @@ button:hover{
 
 /* Universal Button Styling */
 .btn-link__white, .btn-link__primary, .btn-link__secondary, .btn-link__color-black, .btn-link__warning{
-	border-radius: var(--buttonBorderRadius);
+	border-radius: var(--button-border-radius);
 	padding: var(--button-padding);
 	display: inline-block;
 }
@@ -439,18 +460,22 @@ button:hover{
 
 .btn-link__primary{
 	background-color: var(--color-primary);
-	color: var(--white);
+	border: 2px solid var(--color-primary);
+	color: var(--color-black);
+	font-weight: 700;
+	line-height: 1.3rem;
 }
 
 .btn-link__primary:hover {
-	background-color: var(--white);
-	color: var(--color-primary);
+	background-color: var(--color-black);
+	border: 2px solid var(--color-primary);
+	color: var(--color-white);
 	cursor: pointer;
 }
 
 .btn-link__secondary{
 	background-color: var(--color-secondary);
-	color: color-black;
+	color:;
 }
 
 .btn-link__secondary:hover {
@@ -583,6 +608,15 @@ nav.fill ul li a:hover:after {
 13.1 Header
 --------------------------------------------------------------*/
 
+#masthead {
+	background-image: url('./assets/images/banner-front.png');
+	/* min-height: 90vh; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 5rem;
+	background-position:  center;
+}
+
 /*--------------------------------------------------------------
 13.2 Footer
 --------------------------------------------------------------*/
@@ -623,6 +657,30 @@ nav.fill ul li a:hover:after {
 /*--------------------------------------------------------------
 13.3 Other Main Pages
 --------------------------------------------------------------*/
+
+.outer-container {
+	max-width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 99px;
+}
+
+.style--yellow-bar {
+	position: relative;
+}
+
+.style--yellow-bar::after {
+	position: absolute;
+	border-bottom: 6px solid var(--color-primary);
+	width: 99rem;
+	content: '';
+	bottom: 12px;
+	left: -100rem;
+}
+
+.big-number {
+	border-bottom: 3px solid var(--color-primary);
+}
 
 /*--------------------------------------------------------------
 13.4 Page.PHP
@@ -690,24 +748,33 @@ nav.fill ul li a:hover:after {
 /*--------------------------------------------------------------
 18.0 Sizing Utility Classes
 --------------------------------------------------------------*/
+
+.ts-0{
+	font-size: 4rem;
+}
+
 .ts-1{
-	font-size: 1.5rem;
+	font-size: 3rem;
 }
 
 .ts-2{
-	font-size: 1.25rem;
+	font-size: 2rem;
 }
 
 .ts-3{
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 .ts-4{
-	font-size: 0.825rem;
+	font-size: 1.25rem;
 }
 
 .ts-5{
-	font-size: 0.75rem;
+	font-size: 1rem;
+}
+
+.ts-6{
+	font-size: 0.8rem;
 }
 
 .max-x-50{
@@ -1094,7 +1161,61 @@ nav.fill ul li a:hover:after {
 /*--------------------------------------------------------------
 21.0 Font Imports
 --------------------------------------------------------------*/
+@font-face {
+	font-family: 'Biryani';
+	src: url('./assets/fonts/Biryani-Bold.woff2') format('woff2'),
+			url('./assets/fonts/Biryani-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'Biryani';
+	src: url('./assets/fonts/Biryani-Light.woff2') format('woff2'),
+			url('./assets/fonts/Biryani-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Biryani';
+	src: url('./assets/fonts/Biryani-Regular.woff2') format('woff2'),
+			url('./assets/fonts/Biryani-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Biryani';
+	src: url('./assets/fonts/Biryani-ExtraBold.woff2') format('woff2'),
+			url('./assets/fonts/Biryani-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Biryani';
+	src: url('./assets/fonts/Biryani-Black.woff2') format('woff2'),
+			url('./assets/fonts/Biryani-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Biryani';
+	src: url('./assets/fonts/Biryani-SemiBold.woff2') format('woff2'),
+			url('./assets/fonts/Biryani-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Biryani';
+	src: url('./assets/fonts/Biryani-ExtraLight.woff2') format('woff2'),
+			url('./assets/fonts/Biryani-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
 
 /*--------------------------------------------------------------
 22.0 SVG Objects
