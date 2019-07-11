@@ -229,13 +229,13 @@ function twentyseventeen_scripts() {
 
 	// Bootstrap
 	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array() );
-	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('1'), '4.1.3', true );
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('custom-jquery'), '4.1.3', true );
 
 	// Theme stylesheet.
 	wp_enqueue_style( 'twentyseventeen-style', get_stylesheet_uri(), array('bootstrap-css') );
 
 	// Site JS
-	//wp_enqueue_script( 'site-js', get_template_directory_uri() . '/assets/js/site.js', array(), '4.1.3', true );
+	wp_enqueue_script( 'site-js', get_template_directory_uri() . '/assets/js/site.js', array(), '4.1.3', true );
 
 	//Loan Calculator Controller JS
 	wp_enqueue_script( 'calc-js', get_template_directory_uri() . '/assets/js/calc.js', array(), '4.1.3', true );

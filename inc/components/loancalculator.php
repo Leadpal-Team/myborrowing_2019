@@ -41,7 +41,7 @@
 	<!-- Loan Repayments -->
 	<div class="row py-3">
 		<div class="col-12 mb-3">
-			<h3 class="extra-bold d-inline slider-label ">Estimated repayment amounts</h3>
+			<h3 class="extra-bold d-inline slider-label ">Estimated repayment amounts:</h3>
 		</div>
 		<div class="col-12 d-flex flex-row justify-content-between">
 

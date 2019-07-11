@@ -29,6 +29,29 @@ function uniqueClassToggle(id, groupSelector, uniqueClass = 'active'){
 }
 
 window.addEventListener('DOMContentLoaded', function(){
-	manualRedraw();
+	// manualRedraw();
 
 } )
+
+function sideAccordionSwitch(accordion) {
+
+	// get all accordion titles and remove active class for all
+	let allAccordions = document.querySelectorAll('.side-accordion');
+	for (i = 0; i < allAccordions.length; i++) {
+		allAccordions[i].classList.remove('active');
+	}
+
+	// add back active class to this accordion
+	accordion.classList.add('active');
+
+	// get all accordion content and add d-none class for all
+	let allContent = document.querySelectorAll('.side-accordion-content');
+	for (i = 0; i < allContent.length; i++) {
+		if (!allContent[i].classList.contains('d-none')){
+			allContent[i].classList.add('d-none');
+		}
+	}
+
+	// remove d-none class to this accordion content
+	allContent[accordion.getAttribute('data-target')].classList.remove('d-none');
+}

@@ -1,4 +1,4 @@
-<section class="background--black py-0">
+<section class="background--black py-0 mb-5">
   <div class="outer-container background--light-grey">
     <div class="container">
 
@@ -11,38 +11,38 @@
       
       <div class="row">
 
-        <div class="col-12 col-lg-3">
-          <div class="box-shadow p-3 h-100">
-            <p class="ts-0 pb-3 mb-4 w-50 big-number">1</p>
+        <div class="col-12 col-lg-3 ">
+          <div class="box-shadow p-3 h-100 step-card">
+            <p class="ts-0 pb-3 mb-lg-4 w-50 big-number">1</p>
             <h4>Apply Online</h4>
-            <p>Choose your loan amount and payment terms then complete our 100% online form.</p>
+            <p class="mb-lg-5">Choose your loan amount and payment terms then complete our 100% online form.</p>
             <?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-yellow-phone.svg"); ?>
           </div>
         </div>
 
-        <div class="col-12 col-lg-3">
-          <div class="box-shadow p-3 h-100">
-            <p class="ts-0 pb-3 mb-4 w-50 big-number">2</p>
+        <div class="col-12 col-lg-3 mt-3 mt-lg-0">
+          <div class="box-shadow p-3 h-100 step-card">
+            <p class="ts-0 pb-3 mb-lg-4 w-50 big-number">2</p>
             <h4>It’s a Match!</h4>
-            <p>We match you to a lender who can offer you the finance you’re after.</p>
+            <p class="mb-lg-5">We match you to a lender who can offer you the finance you’re after.</p>
             <?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-yellow-fist.svg"); ?>
           </div>
         </div>
 
-        <div class="col-12 col-lg-3">
-          <div class="box-shadow p-3 h-100">
-            <p class="ts-0 pb-3 mb-4 w-50 big-number">3</p>
+        <div class="col-12 col-lg-3 mt-3 mt-lg-0">
+          <div class="box-shadow p-3 h-100 step-card">
+            <p class="ts-0 pb-3 mb-lg-4 w-50 big-number">3</p>
             <h4>Final Approval</h4>
-            <p>If you’re happy, we will forward your application to the lender for final approval.</p>
+            <p class="mb-lg-5">If you’re happy, we will forward your application to the lender for final approval.</p>
             <?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-yellow-check.svg"); ?>
           </div>
         </div>
 
-        <div class="col-12 col-lg-3">
-          <div class="box-shadow p-3 h-100">
-            <p class="ts-0 pb-3 mb-4 w-50 big-number">4</p>
+        <div class="col-12 col-lg-3 mt-3 mt-lg-0">
+          <div class="box-shadow p-3 h-100 step-card">
+            <p class="ts-0 pb-3 mb-lg-4 w-50 big-number">4</p>
             <h4>Money in Hand</h4>
-            <p>Once approved, you could see the cash in your bank in a matter of days!</p>
+            <p class="mb-lg-5">Once approved, you could see the cash in your bank in a matter of days!</p>
             <?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-yellow-handmoney.svg"); ?>
           </div>
         </div>

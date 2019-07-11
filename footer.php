@@ -7,67 +7,56 @@
  */
 ?>
 
-		</div><!-- #content -->
+	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer background--black" role="contentinfo">
 
 			<!--  Footer CTA -->
 			<section class="section--footer primary-color-bg">
 				<div class="container">
 
-					<div class="row py-4">
-						<div class="col-12 col-md-6 text-center text-md-left" >
+					<div class="row py-lg-4 border-bottom mb-3">
+						<div class="col-12 col-lg-6 text-center text-lg-left" >
 							<a href="<?php echo get_site_url(); ?>"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Site Logo"></a>
 						</div>
 
-						<div class="col-12 col-md-5 mx-auto my-auto white py-3">
-							<ul class="mb-md-0 social-list no-bullets d-flex justify-content-around list--no-bullets px-lg-3">
-								<li><a class="social-link px-2" target="_blank" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/facebook.svg'); ?></a></li>
-								<li><a class="social-link px-2" target="_blank" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/twitter.svg'); ?></a></li>
-								<li><a class="social-link px-2" target="_blank" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/linkedin.svg') ?></a></li>
-								<li><a class="social-link px-2" target="_blank" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/instagram.svg') ?></a></li>
-								<li><a class="social-link px-2" target="_blank" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/pinterest.svg') ?></a></li>
-								<li><a class="social-link px-2" target="_blank" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/google-plus.svg') ?></a></li>
+						<div class="col-12 col-lg-6 my-auto white py-3">
+							<ul class="mb-lg-0 pl-0 social-list no-bullets d-flex flex-column flex-lg-row justify-content-end list--no-bullets text-center text-lg-left">
+								<li><a class="social-link px-lg-4 color--white ts-6" target="_blank" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/phone.svg'); ?>1300 762 731</a></li>
+								<li><a class="social-link color--white ts-6" target="_blank" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/envelope.svg'); ?>info@cashsmart.net</a></li>
 							</ul>
 						</div>
 
 					</div>
 
-					<div class="d-flex  flex-column flex-md-row justify-content-between">
-						<div class="mb-3 mb-md-0">
-							<h4 class="footer__header">Quick navigation</h4>
-							<a href="<?php echo get_site_url(); ?>"><p class="footer__item">Home</p></a>
-							<a href="<?php echo get_site_url(); ?>/about-us/"><p class="footer__item">About Us</p></a>
-							<a href="<?php echo get_site_url(); ?>/costs/"><p class="footer__item">Costs</p></a>
+					<div class="d-flex flex-column flex-lg-row justify-content-between">
+
+						<div class="d-flex flex-column flex-lg-row justify-content-between my-auto text-center text-lg-left">
+
+							<a class="color--white mx-2 ts-6 mb-0 py-2" href="">How it Works</a>
+							<a class="color--white mx-2 ts-6 mb-0 py-2" href="">Loan Costs</a>
+							<a class="color--white mx-2 ts-6 mb-0 py-2" href="">FAQs</a>
+							<a class="color--white mx-2 ts-6 mb-0 py-2" href="">Contact Us</a>
+							<a class="color--white mx-2 ts-6 mb-0 py-2" href="">Disclosure</a>
+							<a class="color--white btn-cta mx-2 ts-6 mb-0 my-2" href="">Apply Now</a>
+							<a class="color--white mx-2 ts-6 social-link d-none d-lg-block" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/facebook.svg'); ?></a>
+							<a class="color--white mx-2 ts-6 social-link d-none d-lg-block" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/instagram.svg'); ?></a>
+
+
 						</div>
-						<div class="mb-3 mb-md-0">
-							<h4 class="footer__header">Finance</h4>
-							<a href="<?php echo get_site_url(); ?>/personal-loans/"><p class="footer__item">Personal Loans</p></a>
-							<a href="<?php echo get_site_url(); ?>/cash-loans/"><p class="footer__item">Cash Loans</p></a>
-							<a href="<?php echo get_site_url(); ?>/travel-loans/"><p class="footer__item">Travel Loans</p></a>
-						</div>
-						<div class="mb-3 mb-md-0">
-							<h4 class="footer__header">Customer support</h4>
-							<a href="<?php echo get_site_url(); ?>/contact-us/"><p class="footer__item">Contact us</p></a>
-							<a href="<?php echo get_site_url(); ?>/faq/"><p class="footer__item">FAQ</p></a>
-						</div>
-						<div class="mb-0">
+
+						<div class="mb-0 text-center text-lg-left">
 							<a class="btn-link__warning px-2" data-toggle="modal" data-target="#borrowingWarningModal"><span class="fas fa-exclamation-triangle mr-2"></span>WARNING ABOUT BORROWING</a>
 						</div>
+
+					</div>
+
+					<div class="d-flex flex-column flex-lg-row justify-content-between color--dark-grey mt-4 text-center text-lg-left">
+						<p class="ts-6">© Copyright 2018 cashsmart.net. All Right Reserved.</p>
+						<p class="ts-6">ABN 37 111 606 127</p>
+						<p class="ts-6">Cash Smart Pty Ltd 2019 | Australian Credit Licence 388992</p>
 					</div>
 					
-				</div>
-			</section>
-
-			<!--  Privacy links -->
-			<section class="primary-color-bg">
-				<div class="container">
-					<div class="d-flex flex-column flex-md-row justify-content-between">
-						<a href="<?php echo get_site_url(); ?>/privacy-policy/">Privacy Policy</a>
-						<a href="<?php echo get_site_url(); ?>/acknowledgement-and-consent/" >Acknowledgement and Consent</a>
-						<a href="<?php echo get_site_url(); ?>/website-policy/">Website Policy</a>
-						<a href="<?php echo get_site_url(); ?>/dispute-resolution-policy/">Dispute Resolution Policy</a>
-					</div>
 				</div>
 			</section>
 		

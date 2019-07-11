@@ -74,7 +74,7 @@ html{
 	--button-border-radius: 5px;
 	--button-padding: 10px 20px;
 	--button-padding-mobile: 10px 20px;
-	--site-transition: 0.125s;
+	--site-transition: 0.25s;
 
 	text-rendering: optimizeLegibility;
 	scroll-behavior: smooth;
@@ -135,6 +135,35 @@ body{
 
 .background--black{
 	background-color: var(--color-black);
+}
+
+.background--yellow-right {
+	background: #fbfbfb; /* Old browsers */
+	background: -moz-linear-gradient(left,  #fbfbfb 0%, #fbfbfb 50%, #fac641 50%, #fac641 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #fbfbfb 0%,#fbfbfb 50%,#fac641 50%,#fac641 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #fbfbfb 0%,#fbfbfb 50%,#fac641 50%,#fac641 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#fac641',GradientType=1 ); /* IE6-9 */
+}
+
+.background--cta {
+	background: url('assets/images/banner-cta.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background--cta-yellow {
+	background: url('assets/images/banner-cta-yellow.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background--cta-grey {
+	background: url('assets/images/banner-cta-grey.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 /*--------------------------------------------------------------
@@ -448,14 +477,29 @@ button:hover{
 }
 
 .btn-link__white{
-	color: var(--color-primary);
-	background-color: var(--white);
+	color: var(--black);
+	background-color: var(--color-white);
+	border: 1px solid var(--color-black);
+	padding-right: 4rem !important;
+	position: relative;
+	transition: var(--site-transition);
 }
 
 .btn-link__white:hover {
-	background-color: var(--color-primary);
+	background-color: var(--color-black);
 	color: var(--white);
 	cursor: pointer;
+}
+
+.btn-link__white::after {
+	content: url('assets/images/icons/icon-yellow-arrow.svg');
+	position: absolute;
+	right: -20%;
+	transition: var(--site-transition);
+}
+
+.btn-link__white:hover::after {
+	right: -25%;
 }
 
 .btn-link__primary{
@@ -487,20 +531,38 @@ button:hover{
 	color: var(--white);
 	background-color: var(--color-black);
 	border: 1px solid var(--color-black);
+	padding-right: 4rem !important;
+	position: relative;
+	transition: var(--site-transition);
 }
 
 .btn-link__color-black:hover{
-	color: var(--white);
-	box-shadow: var(--site-shadow);
+	color: var(--black);
+	background-color: var(--color-white);
+}
+
+.btn-link__color-black::after {
+	content: url('assets/images/icons/icon-yellow-arrow.svg');
+	position: absolute;
+	right: -20%;
+	transition: var(--site-transition);
+}
+
+.btn-link__color-black:hover::after {
+	right: -25%;
 }
 
 .btn-link__warning{
 	color: var(--color-black);
-	background-color: var(--white);
+	background-color: var(--color-primary);
 	border: 1px solid var(--color-black);
+	font-weight: 700;
 }
 
 .btn-link__warning:hover{
+	color: var(--color-white) !important;
+	border: 1px solid var(--color-white);
+	background-color: var(--color-black);
 	cursor: pointer;
 }
 
@@ -643,10 +705,11 @@ nav.fill ul li a:hover:after {
 .social-link svg{
 	height: 25px;
 	width: 25px;
-	fill: var(--color-secondary);
+	fill: var(--color-white);
+	padding-right: 10px;
 }
 
-.social-link svg:hover{
+.social-link:hover svg{
 	fill: var(--color-primary);
 }
 
@@ -657,6 +720,21 @@ nav.fill ul li a:hover:after {
 /*--------------------------------------------------------------
 13.3 Other Main Pages
 --------------------------------------------------------------*/
+
+.nav-tabs li a {
+	font-weight: 300;
+	transition: var(--site-transition);
+	color: var(--color-black) !important;
+}
+
+.nav-tabs li a.active {
+	font-weight: 700;
+	border-bottom: 4px solid var(--color-primary);
+}
+
+.no-white-space {
+	white-space: nowrap;
+}
 
 .outer-container {
 	max-width: 1280px;
@@ -680,6 +758,51 @@ nav.fill ul li a:hover:after {
 
 .big-number {
 	border-bottom: 3px solid var(--color-primary);
+}
+
+.step-card {
+	position: relative;
+}
+
+.step-card svg {
+	position: absolute;
+	bottom: 13px;
+	left: 10px;
+}
+
+.side-accordion {
+	position: relative;
+	transition: var(--site-transition);
+}
+
+.side-accordion::before {
+	transition: var(--site-transition);
+}
+
+.side-accordion:hover {
+	cursor: pointer;
+}
+
+.side-accordion.active, .side-accordion:hover {
+	color: var(--color-black);
+	background-color: var(--color-primary);
+	padding-left: 1.5rem;
+	
+}
+
+.side-accordion.active h4, .side-accordion:hover h4 {
+	font-weight: 800;
+}
+
+.side-accordion.active::before, .side-accordion:hover::before {
+	
+	content: '';
+	height: 50%;
+	width: 5px;
+	background-color: var(--color-black);
+	position: absolute;
+	left: 0;
+	top: 25%;
 }
 
 /*--------------------------------------------------------------
@@ -706,13 +829,14 @@ nav.fill ul li a:hover:after {
 /* Accordion */
 .accordion-item{
 	background: var(--white);
-	margin-bottom: 1rem;
-	border-left: 4px solid var(--color-primary);
-	border-radius: 6px;
 }
 
 .accordion-item:hover{
-	box-shadow: 0px 12px 24px rgba(254,132,14,0.2);
+
+}
+
+.accordion-title {
+
 }
 
 .accordion .panel-title>a.collapsed:before {
@@ -721,7 +845,7 @@ nav.fill ul li a:hover:after {
 	font-weight: 700;
 	content: "+";
 	margin-left: 15px;
-	color: var(--color-primary);
+	color: var(--color-black);
 }
 .accordion .panel-title>a:before {
 	font-family: var(--font-primary);
@@ -730,7 +854,7 @@ nav.fill ul li a:hover:after {
 	content: "-";
 	padding-right: 5px;
 	margin-left: 15px;
-	color: var(--color-primary);
+	color: var(--color-black);
 }
 
 .panel-title{
@@ -742,8 +866,19 @@ nav.fill ul li a:hover:after {
 }
 
 .panel-title:hover, .panel-title:active{
-	color: var(--color-primary);
+	color: var(--color-black);
 }
+
+.card-body, .accordion-header {
+	background-color: var(--color-primary);
+	transition: var(--site-transition);
+}
+
+.accordion-header.collapsed {
+	background-color: unset;
+}
+
+
 
 /*--------------------------------------------------------------
 18.0 Sizing Utility Classes
@@ -1132,7 +1267,37 @@ nav.fill ul li a:hover:after {
 		padding-bottom: 2rem;
 	}
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
+
+	.background--cta-grey {
+		background: var(--color-secondary);
+	}
+
+	.background--cta-yellow {
+	background: url('assets/images/banner-cta-yellow-mobile.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.background--cta-yellow .row {
+	padding-bottom: 3rem;
+}
+
+	.style--yellow-bar::after {
+		left: -99rem;
+	}
+
+	.step-card svg {
+		position: absolute;
+		bottom: unset;
+		left: unset;
+		top: 13px;
+		right: 10px;
+		width: 75px;
+		height: 75px;
+	}
+
 	.p-fl{
     padding-left: 2rem;
     padding-right: 2rem;
