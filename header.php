@@ -34,7 +34,7 @@
 	<?php include_once 'inc/components/navigation.php' ?>
 
 	<div class="container <?php if(is_page('contact-us') | is_page('disclosure')){echo 'd-none';} ?>">
-		<div class="row mt-5">
+		<div class="row mt-2 mt-lg-5">
 
 			<div class="col-12 col-lg-6 color--white">
 				<h1 class="extra-bold mb-2">Short term cash loans</h1>

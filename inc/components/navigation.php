@@ -1,7 +1,7 @@
 <!-- Main Navigation -->
 <nav class="navbar navbar-expand-lg py-4">
 	<div class="container d-flex flex-row justify-content-between">
-		<a class="nav-logo" href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" class="img-fluid d-none d-lg-block"></a>
+		<a class="nav-logo" href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" class="img-fluid"></a>
 		<button class="navbar-toggler navbar-light white-bg" onclick="openNav()" type="button" data-toggle="collapse" data-target="#mySideNav" aria-controls="mySideNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
