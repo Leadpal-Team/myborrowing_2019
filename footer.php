@@ -33,12 +33,12 @@
 
 						<div class="d-flex flex-column flex-lg-row justify-content-between my-auto text-center text-lg-left">
 
-							<a class="color--white mx-2 ts-6 mb-0 py-2" href="">How it Works</a>
-							<a class="color--white mx-2 ts-6 mb-0 py-2" href="">Loan Costs</a>
-							<a class="color--white mx-2 ts-6 mb-0 py-2" href="">FAQs</a>
-							<a class="color--white mx-2 ts-6 mb-0 py-2" href="">Contact Us</a>
-							<a class="color--white mx-2 ts-6 mb-0 py-2" href="">Disclosure</a>
-							<a class="color--white btn-cta mx-2 ts-6 mb-0 my-2" href="">Apply Now</a>
+							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/how-it-works/">How it Works</a>
+							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/loan-costs/">Loan Costs</a>
+							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/faq/">FAQs</a>
+							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/contact-us/">Contact Us</a>
+							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/disclosure/">Disclosure</a>
+							<a class="color--white btn-cta mx-2 ts-6 mb-0 my-2" href="<?php echo get_site_url(); ?>/">Apply Now</a>
 							<a class="color--white mx-2 ts-6 social-link d-none d-lg-block" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/facebook.svg'); ?></a>
 							<a class="color--white mx-2 ts-6 social-link d-none d-lg-block" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/instagram.svg'); ?></a>
 

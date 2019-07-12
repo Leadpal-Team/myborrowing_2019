@@ -244,7 +244,6 @@ strong, .bold, .font-weight--700  {
 
 /* Wordpress Contact Form 7 */
 .wpcf7-form-control-wrap{
-	display: block;
   width: 100%;
 }
 
@@ -252,6 +251,13 @@ strong, .bold, .font-weight--700  {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+}
+
+.wpcf7 input, .wpcf7 textarea, .wpcf7-select {
+	width: 100%;
+	border: 0;
+	background-color: var(--white);
+	padding: 15px 5px;
 }
 
 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required, input.wpcf7-form-control.wpcf7-text, textarea.wpcf7-form-control.wpcf7-textarea, input.wpcf7-form-control.wpcf7-number, .wpcf7-form-control-wrap select, .wpcf7-form-control-wrap .wpcf7-date{
@@ -470,7 +476,7 @@ button:hover{
 }
 
 /* Universal Button Styling */
-.btn-link__white, .btn-link__primary, .btn-link__secondary, .btn-link__color-black, .btn-link__warning{
+.btn-link__white, .btn-link__primary, .btn-link__secondary, .btn-link__color-black, .btn-link__warning, .btn-link__color-black-alt{
 	border-radius: var(--button-border-radius);
 	padding: var(--button-padding);
 	display: inline-block;
@@ -503,16 +509,17 @@ button:hover{
 }
 
 .btn-link__primary{
-	background-color: var(--color-primary);
-	border: 2px solid var(--color-primary);
+	background-color: var(--color-primary) !important;
+	border: 2px solid var(--color-primary) !important;
 	color: var(--color-black);
 	font-weight: 700;
 	line-height: 1.3rem;
+	transition: var(--site-transition);
 }
 
 .btn-link__primary:hover {
-	background-color: var(--color-black);
-	border: 2px solid var(--color-primary);
+	background-color: var(--color-black) !important;
+	border: 2px solid var(--color-primary) !important;
 	color: var(--color-white);
 	cursor: pointer;
 }
@@ -527,18 +534,18 @@ button:hover{
 	cursor: pointer;
 }
 
-.btn-link__color-black{
+.btn-link__color-black, .btn-link__color-black-alt{
 	color: var(--white);
-	background-color: var(--color-black);
-	border: 1px solid var(--color-black);
+	background-color: var(--color-black) !important;
+	border: 2px solid var(--color-black) !important;
 	padding-right: 4rem !important;
 	position: relative;
 	transition: var(--site-transition);
 }
 
-.btn-link__color-black:hover{
-	color: var(--black);
-	background-color: var(--color-white);
+.btn-link__color-black:hover, .btn-link__color-black-alt:hover{
+	color: var(--black) !important;
+	background-color: unset !important;
 }
 
 .btn-link__color-black::after {
@@ -549,6 +556,17 @@ button:hover{
 }
 
 .btn-link__color-black:hover::after {
+	right: -25%;
+}
+
+.btn-link__color-black-alt::after {
+	content: url('assets/images/icons/icon-white-arrow.svg');
+	position: absolute;
+	right: -20%;
+	transition: var(--site-transition);
+}
+
+.btn-link__color-black-alt:hover::after {
 	right: -25%;
 }
 

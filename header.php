@@ -28,12 +28,12 @@
 <div id="page" class="site">
 
 <!-- Site Header -->
-<header id="masthead" role="banner" class="background--black">
+<header id="masthead<?php if(is_page('contact-us') | is_page('disclosure')){echo '2';} ?>" role="banner" class="background--black">
 
 	<!-- Navigation and Sidenav -->
 	<?php include_once 'inc/components/navigation.php' ?>
 
-	<div class="container">
+	<div class="container <?php if(is_page('contact-us') | is_page('disclosure')){echo 'd-none';} ?>">
 		<div class="row mt-5">
 
 			<div class="col-12 col-lg-6 color--white">
