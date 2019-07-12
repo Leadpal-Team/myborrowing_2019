@@ -1,7 +1,7 @@
 <!-- Main Navigation -->
 <nav class="navbar navbar-expand-lg py-4">
 	<div class="container d-flex flex-row justify-content-between">
-		<a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" class="img-fluid"></a>
+		<a class="nav-logo" href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" class="img-fluid d-none d-lg-block"></a>
 		<button class="navbar-toggler navbar-light white-bg" onclick="openNav()" type="button" data-toggle="collapse" data-target="#mySideNav" aria-controls="mySideNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -22,7 +22,7 @@
 
 <!-- Sidenav for Small Devices -->
 <div id="sidenav" class="sidenav text-center background--white">
-	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" class="img-fluid">
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-alt.png" class="img-fluid mt-5 px-2">
 	<ul class="pl-0">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<li class="py-3"><a class="color--black" href="<?php echo get_site_url(); ?>/">Home</a></li>

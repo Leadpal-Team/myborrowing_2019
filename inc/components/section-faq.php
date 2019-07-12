@@ -39,8 +39,7 @@
 
           <div class="side-accordion-content d-none">
             <h3 class="extra-bold">What does My Borrowing do?</h3>
-            <p>With MyBorrowing you can apply for short-term loans between $500 and $2,000 or secured personal loans between $2,100 and $4,600, depending on your eligibility.</p>
-            <p>Loan terms can be anywhere between 6 to 18 months, depending on the type of loan and the lender’s specifications.</p>
+            <p>Essentially, we do the searching so you don’t have to! When you apply with MyBorrowing we will find the best loan option to meet your needs. Once we’ve found it, we’ll put you directly in touch with the lender who can offer you the loan you’re looking for.</p>
           </div>
 
           <div class="side-accordion-content">
@@ -51,26 +50,36 @@
 
           <div class="side-accordion-content d-none">
             <h3 class="extra-bold">How do I receive my loan?</h3>
-            <p>With MyBorrowing you can apply for short-term loans between $500 and $2,000 or secured personal loans between $2,100 and $4,600, depending on your eligibility.</p>
-            <p>Loan terms can be anywhere between 6 to 18 months, depending on the type of loan and the lender’s specifications.</p>
+            <p>Once MyBorrowing has reviewed your application we will match you to a suitable lender. Then, you will have to wait for final approval of your application. If successful, the money will be transferred straight into your bank account subject to the lenders protocol.</p>
           </div>
 
           <div class="side-accordion-content d-none">
             <h3 class="extra-bold">How much does it cost?</h3>
-            <p>With MyBorrowing you can apply for short-term loans between $500 and $2,000 or secured personal loans between $2,100 and $4,600, depending on your eligibility.</p>
-            <p>Loan terms can be anywhere between 6 to 18 months, depending on the type of loan and the lender’s specifications.</p>
+            <p>The cost of your loan depends on the lender. We encourage all our lenders to be upfront with all fees and charges associated with their loans. Unless your lender says otherwise, you can expect to pay something similar to this:</p>
+					<p>$500 up to $2,000 Short term Loans</p>
+					<ul>
+						<li>20% of principal amount (establishment fee)</li>
+						<li>4% of principal amount per month.</li>
+						<li>There is NO Interest charged on our loans between $500 and up to $2000</li>
+						<li>The easiest way to see how much your loan would cost is to go to our Loan Costs page.</li>
+					</ul>
+					<p>$2,001 up to $4,600 Personal Loans</p>
+					<ul>
+						<li>$400 Establishment Fee</li>
+						<li>Interest at 47.5% per annum charged on a reducing balance basis.</li>
+						<li>APR is 47.5%, Comparisson rate is 65.88%</li>
+						<li>The easiest way to see how much your loan would cost is to go to our Loan Costs page.</li>
+					</ul>
           </div>
 
           <div class="side-accordion-content d-none">
             <h3 class="extra-bold">How do I pay my loan back?</h3>
-            <p>With MyBorrowing you can apply for short-term loans between $500 and $2,000 or secured personal loans between $2,100 and $4,600, depending on your eligibility.</p>
-            <p>Loan terms can be anywhere between 6 to 18 months, depending on the type of loan and the lender’s specifications.</p>
+            <p>It’s important you make your repayments on time so you do not incur any extra charges from your lender. Forgetting to repay your loan could lead to defaults being added to your credit score, making it hard to apply for funding in future. When you loan is approved, speak with your lender about setting up a scheduled payment to ensure you meet repayments.</p>
           </div>
 
           <div class="side-accordion-content d-none">
             <h3 class="extra-bold">How much can I borrow?</h3>
-            <p>With MyBorrowing you can apply for short-term loans between $500 and $2,000 or secured personal loans between $2,100 and $4,600, depending on your eligibility.</p>
-            <p>Loan terms can be anywhere between 6 to 18 months, depending on the type of loan and the lender’s specifications.</p>
+            <p>Our friendly team is here to help! If you have any questions, feel free to call us on 1300 762 731 or email us directly at <a href="info@cashsmart.net">info@cashsmart.net</a>.</p>
           </div>
 
         </div>

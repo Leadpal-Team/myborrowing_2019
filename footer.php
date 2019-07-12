@@ -38,7 +38,7 @@
 							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/faq/">FAQs</a>
 							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/contact-us/">Contact Us</a>
 							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/disclosure/">Disclosure</a>
-							<a class="color--white btn-cta mx-2 ts-6 mb-0 my-2" href="<?php echo get_site_url(); ?>/">Apply Now</a>
+							<a class="color--white btn-link__warning mx-2 ts-6 mb-0 my-2" href="<?php echo get_site_url(); ?>/">Apply Now</a>
 							<a class="color--white mx-2 ts-6 social-link d-none d-lg-block" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/facebook.svg'); ?></a>
 							<a class="color--white mx-2 ts-6 social-link d-none d-lg-block" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/instagram.svg'); ?></a>
 
