@@ -696,7 +696,7 @@ nav.fill ul li a:hover:after {
 
 #masthead {
 	background-image: url('./assets/images/banner-front.png');
-	/* min-height: 90vh; */
+	min-height: 90vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 5rem;
@@ -1296,6 +1296,10 @@ nav.fill ul li a:hover:after {
 	}
 }
 @media screen and (max-width: 768px){
+
+	#masthead {
+		min-height: unset;
+	}
 
 	.nav-tabs li {
 		width: 100%;

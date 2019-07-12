@@ -8,7 +8,7 @@
           <p>In as little as 60 seconds we could find you a lender ready to offer you the money you’re after! Just one application to access hundreds of lenders - sound good to you? Try us out today!</p>
           <a class="color--white btn-link__color-black mt-4 d-none d-lg-inline-block" href="<?php echo get_site_url(); ?>/FAQ/">Apply Now</a>
           <div class="text-center w-100 mt-3 d-block d-lg-none">
-            <a href="<?php echo get_site_url(); ?>/FAQ/" class="btn-link__white ">Apply Now</a>
+            <a href="apply.myborrowing.com.au/mb/apply" class="btn-link__white ">Apply Now</a>
           </div>
         </div>
       </div>

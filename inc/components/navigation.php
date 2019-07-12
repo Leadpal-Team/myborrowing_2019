@@ -12,7 +12,7 @@
 					<li class="my-auto"><a class="color--white mr-3 p-2" href="<?php echo get_site_url(); ?>/how-it-works/">How It Works</a></li>
 					<li class="my-auto"><a class="color--white mx-3 p-2" href="<?php echo get_site_url(); ?>/loan-costs/">Loan Costs</a></li>
 					<li class="my-auto"><a class="color--white mx-3 p-2" href="<?php echo get_site_url(); ?>/faq/">FAQ</a></li>
-					<li class="my-auto"><a class="color--white ml-3 btn-link__primary" href="<?php echo get_site_url(); ?>/">Apply Now</a></li>
+					<li class="my-auto"><a class="color--white ml-3 btn-link__primary" href="apply.myborrowing.com.au/mb/apply">Apply Now</a></li>
 				</ul>
 			</nav>
 
@@ -30,6 +30,6 @@
 		<li class="py-3"><a class="color--black" href="<?php echo get_site_url(); ?>/faq/">FAQ</a></li>
 		<li class="py-3"><a class="color--black" href="<?php echo get_site_url(); ?>/blog/">Blog</a></li>
 		<li class="py-3"><a class="color--black" href="<?php echo get_site_url(); ?>/contact-us/">Contact</a></li>
-		<li class="py-3"><a class="color--black" href="apply">Apply Now</a></li>		
+		<li class="py-3"><a class="color--black" href="apply.myborrowing.com.au/mb/apply">Apply Now</a></li>		
 	</ul>
 </div>
