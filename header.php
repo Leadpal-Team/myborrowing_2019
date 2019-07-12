@@ -48,7 +48,7 @@
 						</div>
 						<div class="d-inline my-auto">
 							<p class="bold mb-1">Simple and Fast</p>
-							<p class="ts-6 light mb-0">Let's have a nice tree right here. No worries. No cares.</p>
+							<p class="ts-6 light mb-0">Complete an application in minutes, without hassle.</p>
 						</div>
 					</div>
 
@@ -57,8 +57,8 @@
 							<?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-thumbsup.svg"); ?>
 						</div>
 						<div class="d-inline my-auto">
-							<p class="bold mb-1">No Hassle, No Fuss</p>
-							<p class="ts-6 light mb-0">Let's have a nice tree right here. No worries. No cares.</p>
+							<p class="bold mb-1">Beyond Bad Credit</p>
+							<p class="ts-6 light mb-0">We find lenders that look at more than just your credit score.</p>
 						</div>
 					</div>
 
@@ -68,7 +68,7 @@
 						</div>
 						<div class="d-inline my-auto">
 							<p class="bold mb-1">100% Online</p>
-							<p class="ts-6 light mb-0">Let's have a nice tree right here. No worries. No cares.</p>
+							<p class="ts-6 light mb-0">Submit an online application, anytime anywhere.</p>
 						</div>
 					</div>
 
@@ -77,8 +77,8 @@
 							<?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-fist.svg"); ?>
 						</div>
 						<div class="d-inline my-auto">
-							<p class="bold mb-1">Lorem Ipsum Dolor</p>
-							<p class="ts-6 light mb-0">Let's have a nice tree right here. No worries. No cares.</p>
+							<p class="bold mb-1">Meet Your Lender</p>
+							<p class="ts-6 light mb-0">We match you with a lender that can give you a fair go.</p>
 						</div>
 					</div>
 
