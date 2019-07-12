@@ -95,7 +95,7 @@
 				</div>
 			</div>
 
-					<div class="col-12 d-flex mt-3 d-block d-lg-none">
+					<div class="col-12 d-flex mt-3 d-block d-lg-none color--white">
 						<div class="d-inline my-auto p-3">
 							<?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-stopwatch.svg"); ?>
 						</div>
@@ -105,7 +105,7 @@
 						</div>
 					</div>
 
-					<div class="col-12 d-flex mt-3 d-block d-lg-none">
+					<div class="col-12 d-flex mt-3 d-block d-lg-none color--white">
 						<div class="d-inline my-auto p-3">
 							<?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-thumbsup.svg"); ?>
 						</div>
@@ -115,7 +115,7 @@
 						</div>
 					</div>
 
-					<div class="col-12 d-flex mt-3 d-block d-lg-none">
+					<div class="col-12 d-flex mt-3 d-block d-lg-none color--white">
 						<div class="d-inline my-auto p-3">
 							<?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-phone.svg"); ?>
 						</div>
@@ -125,7 +125,7 @@
 						</div>
 					</div>
 
-					<div class="col-12 d-flex mt-3 d-block d-lg-none">
+					<div class="col-12 d-flex mt-3 d-block d-lg-none color--white">
 						<div class="d-inline my-auto p-3">
 							<?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-fist.svg"); ?>
 						</div>
