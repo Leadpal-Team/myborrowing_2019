@@ -95,6 +95,47 @@
 				</div>
 			</div>
 
+					<div class="col-12 d-flex mt-3 d-block d-lg-none">
+						<div class="d-inline my-auto p-3">
+							<?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-stopwatch.svg"); ?>
+						</div>
+						<div class="d-inline my-auto">
+							<p class="bold mb-1">Simple and Fast</p>
+							<p class="ts-6 light mb-0">Complete an application in minutes, without hassle.</p>
+						</div>
+					</div>
+
+					<div class="col-12 d-flex mt-3 d-block d-lg-none">
+						<div class="d-inline my-auto p-3">
+							<?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-thumbsup.svg"); ?>
+						</div>
+						<div class="d-inline my-auto">
+							<p class="bold mb-1">Beyond Bad Credit</p>
+							<p class="ts-6 light mb-0">We find lenders that look at more than just your credit score.</p>
+						</div>
+					</div>
+
+					<div class="col-12 d-flex mt-3 d-block d-lg-none">
+						<div class="d-inline my-auto p-3">
+							<?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-phone.svg"); ?>
+						</div>
+						<div class="d-inline my-auto">
+							<p class="bold mb-1">100% Online</p>
+							<p class="ts-6 light mb-0">Submit an online application, anytime anywhere.</p>
+						</div>
+					</div>
+
+					<div class="col-12 d-flex mt-3 d-block d-lg-none">
+						<div class="d-inline my-auto p-3">
+							<?php echo file_get_contents(get_stylesheet_directory_uri() . "/assets/images/icons/icon-fist.svg"); ?>
+						</div>
+						<div class="d-inline my-auto">
+							<p class="bold mb-1">Meet Your Lender</p>
+							<p class="ts-6 light mb-0">We match you with a lender that can give you a fair go.</p>
+						</div>
+					</div>
+
+
 		</div>
 	</div>
 
