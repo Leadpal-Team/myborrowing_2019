@@ -62,6 +62,7 @@ function updateFormInput(loan, loanTerm){
 	currentLoanRange = from + to;
 	
 	document.getElementById('loan-amount-tooltip').innerHTML = loanAmountUnit + numberWithCommas(loan);
+	document.getElementById('loan-term-tooltip').innerHTML = numberWithCommas(loanTerm) + ' ' + loanTermUnit;
 
 	let payments = calculatePayments(loan, loanTerm);
 
@@ -197,11 +198,13 @@ function redrawSliderGradient(){
   var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
   var isEdge = /Edge/.test(navigator.userAgent); 
 
-  //Only runs if Chrome or Safari
-  if(isChrome || isSafari || isEdge){
-    var input = jQuery('#loan-amount');
+  //Only runs if Chrome or Safari - Commented out to work on small mobiles
+  // if(isChrome || isSafari || isEdge){
+		var input = jQuery('#loan-amount');
+		var inputTerm = jQuery('#loan-term');
     //Sets val to be the percentage of how far along the thumb is in relation to the slider
-    var val = (jQuery(input).val() - jQuery(input).attr('min')) / (jQuery(input).attr('max') - jQuery(input).attr('min'));
+		var val = (jQuery(input).val() - jQuery(input).attr('min')) / (jQuery(input).attr('max') - jQuery(input).attr('min'));
+		var valTerm = (jQuery(inputTerm).val() - jQuery(inputTerm).attr('min')) / (jQuery(inputTerm).attr('max') - jQuery(inputTerm).attr('min'));
 
     //Sets the background to the thumb position
     jQuery(input).css('background-image',
@@ -210,7 +213,15 @@ function redrawSliderGradient(){
 		+ 'color-stop(' + val + ', #f5f5f5)'
 		+ ')'
 		);
-  }
+
+		//Sets the background to the thumb position
+    jQuery(inputTerm).css('background-image',
+		'-webkit-gradient(linear, left top, right top, '
+		+ 'color-stop(' + valTerm + ', #151515), '
+		+ 'color-stop(' + valTerm + ', #f5f5f5)'
+		+ ')'
+		);
+  // }
 }
 
 //Repositions the hidden pulser on window resize

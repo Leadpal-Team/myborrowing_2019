@@ -267,7 +267,7 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required, input.wpcf7-for
 		width: 100%;
 }
 
-#loan-amount {
+#loan-amount, #loan-term {
 	width:100%;
 	-webkit-appearance: none;
 	height: 10px;
@@ -277,7 +277,7 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required, input.wpcf7-for
 	border-radius: 99rem;
 	}
 
-#loan-amount::-webkit-slider-thumb{
+#loan-amount::-webkit-slider-thumb, #loan-term::-webkit-slider-thumb{
 	-webkit-appearance: none;
 	appearance: none;
 	width: 30px;
@@ -288,16 +288,12 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required, input.wpcf7-for
 	cursor: pointer;
 }
 
-#loan-amount:-moz-range-thumb {
+#loan-amount:-moz-range-thumb, #loan-term:-moz-range-thumb {
 	width: 40px;
 	height: 40px;
 	border-radius: 0;
 	background: var(--color-black);
 	cursor: pointer;
-}
-
-#loan-term {
-	border: 2px solid var(--color-black);
 }
 
 /*--------------------------------------------------------------
@@ -1388,6 +1384,12 @@ nav.fill ul li a:hover:after {
   }
 }
 @media screen and (max-width: 375px){
+	.repayments {
+		font-size: 1rem;
+	}
+	.slider-label {
+		font-size: 1rem;
+	}
 }
 @media screen and (max-width: 320px){
 }
