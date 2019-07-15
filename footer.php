@@ -17,13 +17,15 @@
 
 					<div class="row py-lg-4 border-bottom mb-3">
 						<div class="col-12 col-lg-6 text-center text-lg-left" >
-							<a href="<?php echo get_site_url(); ?>"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Site Logo"></a>
+							<a href="<?php echo get_site_url(); ?>"><img class="img-fluid nav-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Site Logo"></a>
+							<a class="color--white mx-2 ts-6 my-auto social-link d-inline-block d-lg-none" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/facebook.svg'); ?></a>
+							<a class="color--white mx-2 ts-6 my-auto social-link d-inline-block d-lg-none" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/instagram.svg'); ?></a>
 						</div>
 
 						<div class="col-12 col-lg-6 my-auto white py-3">
 							<ul class="mb-lg-0 pl-0 social-list no-bullets d-flex flex-column flex-lg-row justify-content-end list--no-bullets text-center text-lg-left">
-								<li><a class="social-link px-lg-4 color--white ts-6" target="_blank" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/phone.svg'); ?>1300 762 731</a></li>
-								<li><a class="social-link color--white ts-6" target="_blank" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/envelope.svg'); ?>info@cashsmart.net</a></li>
+								<li class="my-2"><a class="social-link px-lg-4 color--white ts-6" target="_blank" href="tel:1300 762 731"><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/phone.svg'); ?>1300 762 731</a></li>
+								<li class="my-2"><a class="social-link color--white ts-6" target="_blank" href="mailto:info@cashsmart.net"><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/envelope.svg'); ?>info@cashsmart.net</a></li>
 							</ul>
 						</div>
 
@@ -33,20 +35,20 @@
 
 						<div class="d-flex flex-column flex-lg-row justify-content-between my-auto text-center text-lg-left">
 
-							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/how-it-works/">How it Works</a>
-							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/loan-costs/">Loan Costs</a>
-							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/faq/">FAQs</a>
-							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/contact-us/">Contact Us</a>
-							<a class="color--white mx-2 ts-6 mb-0 py-2" href="<?php echo get_site_url(); ?>/disclosure/">Disclosure</a>
-							<a class="color--white btn-link__warning mx-2 ts-6 mb-0 my-2" href="apply.myborrowing.com.au/mb/apply">Apply Now</a>
-							<a class="color--white mx-2 ts-6 social-link d-none d-lg-block" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/facebook.svg'); ?></a>
-							<a class="color--white mx-2 ts-6 social-link d-none d-lg-block" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/instagram.svg'); ?></a>
+							<a class="color--white mx-2 ts-6 my-auto py-2" href="<?php echo get_site_url(); ?>/how-it-works/">How it Works</a>
+							<a class="color--white mx-2 ts-6 my-auto py-2" href="<?php echo get_site_url(); ?>/loan-costs/">Loan Costs</a>
+							<a class="color--white mx-2 ts-6 my-auto py-2" href="<?php echo get_site_url(); ?>/faq/">FAQs</a>
+							<a class="color--white mx-2 ts-6 my-auto py-2" href="<?php echo get_site_url(); ?>/contact-us/">Contact Us</a>
+							<a class="color--white mx-2 ts-6 my-auto py-2" href="<?php echo get_site_url(); ?>/disclosure/">Disclosure</a>
+							<a class="color--white btn-link__warning-alt mx-auto ts-6 my-2" href="apply.myborrowing.com.au/mb/apply">Apply Now</a>
+							<a class="color--white mx-2 ts-6 my-auto social-link d-none d-lg-block" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/facebook.svg'); ?></a>
+							<a class="color--white mx-2 ts-6 my-auto social-link d-none d-lg-block" href=""><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/brands/instagram.svg'); ?></a>
 
 
 						</div>
 
-						<div class="mb-0 text-center text-lg-left">
-							<a class="btn-link__warning px-2" data-toggle="modal" data-target="#borrowingWarningModal"><span class="fas fa-exclamation-triangle mr-2"></span>WARNING ABOUT BORROWING</a>
+						<div class="my-auto text-center text-lg-left">
+							<a class="btn-link__warning px-2" data-toggle="modal" data-target="#borrowingWarningModal">WARNING ABOUT BORROWING</a>
 						</div>
 
 					</div>

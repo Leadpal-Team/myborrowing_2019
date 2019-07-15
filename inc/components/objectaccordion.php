@@ -71,7 +71,7 @@
 			<div class="col-12 p-0 accordion-item filterDiv '.$faqCategory.'">
         <div aria-controls="faq-'.$parent.'-'.$itemCount.'" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-'.$parent.'-'.$itemCount.'" data-toggle="collapse" id="faq-'.$parent.'-'.$itemCount.'-heading">
         
-					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-'.$itemCount.'" aria-expanded="'.$expanded.'" class="collapsed panel-title light" data-target="#faq-'.$parent.'-'.$itemCount.'" href="#faq-'.$parent.'-'.$itemCount.'" data-toggle="collapse">
+					<h5 class="accordion-title mb-0 pt-4 panel-title color--primary text-left p-3 border-faq"><a aria-controls="faq-'.$itemCount.'" aria-expanded="'.$expanded.'" class="collapsed panel-title light" data-target="#faq-'.$parent.'-'.$itemCount.'" href="#faq-'.$parent.'-'.$itemCount.'" data-toggle="collapse">
 						'.$faqQuestion.'
 						</a>
           </h5>

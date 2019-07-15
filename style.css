@@ -86,7 +86,7 @@ html{
 }
 
 body{
-	background: var(--white);
+	background: var(--color-light-gray);
 }
 
 .color--primary{
@@ -98,7 +98,7 @@ body{
 }
 
 .color--secondary{
-	color: var(--color-secondary);i
+	color: var(--color-secondary);
 }
 
 .background--secondary{
@@ -476,7 +476,7 @@ button:hover{
 }
 
 /* Universal Button Styling */
-.btn-link__white, .btn-link__primary, .btn-link__secondary, .btn-link__color-black, .btn-link__warning, .btn-link__color-black-alt{
+.btn-link__white, .btn-link__primary, .btn-link__secondary, .btn-link__color-black, .btn-link__warning, .btn-link__color-black-alt, .btn-link__warning-alt{
 	border-radius: var(--button-border-radius);
 	padding: var(--button-padding);
 	display: inline-block;
@@ -582,6 +582,18 @@ button:hover{
 	border: 1px solid var(--color-white);
 	background-color: var(--color-black);
 	cursor: pointer;
+}
+
+.btn-link__warning-alt{
+	color: var(--color-white);
+	background-color: unset;
+	border: 1px solid var(--color-white);
+	font-weight: 700;
+}
+
+.btn-link__warning-alt:hover {
+	color: var(--color-black);
+	background-color: var(--color-white);
 }
 
 .navbar-toggler-icon {
@@ -730,7 +742,8 @@ nav.fill ul li a:hover:after {
 	height: 25px;
 	width: 25px;
 	fill: var(--color-white);
-	padding-right: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .social-link:hover svg{
@@ -782,6 +795,17 @@ nav.fill ul li a:hover:after {
 
 .big-number {
 	border-bottom: 3px solid var(--color-primary);
+	font-weight: 800;
+}
+
+.section-faq {
+	margin-top: 6rem;
+	margin-bottom: 4rem;
+}
+
+.collapsed .border-faq {
+	border-bottom: 1px solid var(--color-dark-gray);
+	margin-bottom: 1rem;
 }
 
 .step-card {
@@ -1296,6 +1320,10 @@ nav.fill ul li a:hover:after {
 	}
 }
 @media screen and (max-width: 768px){
+
+	.btn-link__warning, .btn-link__warning-alt {
+		width: 290px;
+	}
 
 	#masthead {
 		min-height: unset;

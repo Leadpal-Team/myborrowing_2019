@@ -66,7 +66,7 @@
 	<!-- Apply -->
 	<div class="row pt-4">
 		<div class="col-12 text-center">
-			<button type="submit" id="slider-submit" class="btn-link__primary w-100 mb-3">APPLY NOW</button>
+			<button type="submit" id="slider-submit" class="btn-link__primary w-100 mb-3">Apply Now</button>
 		</div>
 	</div>
 

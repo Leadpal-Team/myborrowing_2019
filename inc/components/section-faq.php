@@ -1,4 +1,4 @@
-<section class="background--yellow-right py-0 mt-5 d-none d-lg-block">
+<section class="background--yellow-right section-faq d-none d-lg-block">
     <div class="container pt-5">
 
       <div class="row">

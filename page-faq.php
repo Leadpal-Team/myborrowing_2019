@@ -10,7 +10,7 @@ get_header(); ?>
 <?php include_once 'inc/components/objectaccordion.php'; ?>
 
 <!-- Section - FAQ -->
-<section class="background--black py-0 mb-5">
+<section class="background--black py-0 mb-5" id="desktop-faq">
   <div class="outer-container background--light-grey">
     <div class="container">
 
@@ -270,3 +270,12 @@ get_header(); ?>
 <?php include_once 'inc/components/section-cta-grey.php'; ?>
 
 <?php get_footer(); ?>
+
+<script>
+$(function(){
+    $('html, body').animate({
+        scrollTop: $('#desktop-faq').offset().top
+    }, 1000);
+    return false;
+});
+</script>
