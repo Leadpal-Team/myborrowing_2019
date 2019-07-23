@@ -31,8 +31,8 @@
 		</div>
 
 		<div class="col-12 d-flex justify-content-between">
-			<p class="d-inline color--dark-grey"><?php echo number_format(LOAN_TERM_MIN) . ' ' . LOAN_TERM_UNIT; ?></p>
-			<p class="d-inline color--dark-grey"><?php echo number_format(LOAN_TERM_MAX) . ' ' . LOAN_TERM_UNIT; ?></p>
+			<p class="d-inline color--dark-grey" id="loan-term-label-min"><?php echo number_format(LOAN_TERM_MIN) . ' ' . LOAN_TERM_UNIT; ?></p>
+			<p class="d-inline color--dark-grey" id="loan-term-label-max"><?php echo number_format(LOAN_TERM_MAX) . ' ' . LOAN_TERM_UNIT; ?></p>
 		</div>
 
 	</div>

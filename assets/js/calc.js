@@ -33,30 +33,32 @@ function updateFormInput(loan, loanTerm){
 
 	//Sacc
 	if (loan <= 2000) {
-		from = 3;
-		to = 6;
+		from = 6;
+		to = 12;
 		disclaimer.innerHTML = saccDisclaimer;
 		securityRequired = false;
 	}	
 	//Macc
 	else if (loan > 2000 && loan <= 4600) {
-		from = 13;
+		from = 12;
 		to = 24;
 		disclaimer.innerHTML = maccDisclaimer;
 		securityRequired = false;
 	}
 	//Lacc
 	else {
-		from = 13;
-		to = 24;
+		from = 12;
+		to = 36;
 		disclaimer.innerHTML = laccDisclaimer;
 		securityRequired = false;
 	}
 
-	//If the loan term has changed, we need to clear the select dropdown and repopulate the optionss
-	if(currentLoanRange != from + to){
-		redrawSelectInput(from, to, loanTermUnit);
-	}
+	//Sets the loan term slider values
+	document.getElementById('loan-term').setAttribute('min', from);
+	document.getElementById('loan-term').setAttribute('max', to);
+
+	document.getElementById('loan-term-label-min').innerHTML = `${from} Months`;
+	document.getElementById('loan-term-label-max').innerHTML = `${to} Months`;
 
 	//The current loan range value
 	currentLoanRange = from + to;
@@ -125,14 +127,15 @@ function calculatePayments(loanAmount, loanTerm){
 		}
 		//MACC
 		else if(loanAmount > 2000 && loanAmount < 5000){
-			interestRate = .478;
+			interestRate = .48;
 			establishmentFee = 400;
 		}
 
 		//LACC
 		else{
-			interestRate = .2124;
-			establishmentFee =  loanAmount * (loanTerm * 0.01)
+			interestRate = .48;
+			establishmentFee = 0;
+			//establishmentFee =  loanAmount * (loanTerm * 0.01)
 		}
 
 		//The total amount to be repaid

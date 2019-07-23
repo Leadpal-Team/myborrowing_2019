@@ -22,19 +22,19 @@
 	define('COMPANY_INFORMATION_TRADING_NAME', 'Company Pty Ltd');
 
 	//Loan Variables
-	define('SACC_LOAN_MIN', "500");
+	define('SACC_LOAN_MIN', "200");
 	define('SACC_LOAN_MAX', "2000");
 	define('MACC_LOAN_MIN', "2000");
-	define('MACC_LOAN_MAX', "3000");
-	define('LACC_LOAN_MIN', "3000");
-	define('LACC_LOAN_MAX', "4600");
+	define('MACC_LOAN_MAX', "5000");
+	define('LACC_LOAN_MIN', "5000");
+	define('LACC_LOAN_MAX', "10000");
 	define('LOAN_MIN', SACC_LOAN_MIN);
 	define('LOAN_MAX', MACC_LOAN_MAX);
 	define('LOAN_CURRENCY_UNIT', '$');
 	define('LOAN_AMOUNT_STEP', '100');
 	define('LOAN_AMOUNT_DEFAULT_VALUE', '2500');
-	define('LOAN_TERM_MIN', '13');	
-	define('LOAN_TERM_MAX', '24');
+	define('LOAN_TERM_MIN', '6');	
+	define('LOAN_TERM_MAX', '12');
 	define('LOAN_TERM_STEP', '1');
 	define('LOAN_TERM_UNIT', 'Months');
 	define('LOAN_TERM_DEFAULT_VALUE', '18');
