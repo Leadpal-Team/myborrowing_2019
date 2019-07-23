@@ -44,8 +44,8 @@
 
           <div class="side-accordion-content">
             <h3 class="extra-bold">How much can I borrow?</h3>
-            <p>With MyBorrowing you can apply for short-term loans between $500 and $2,000 or secured personal loans between $2,100 and $4,600, depending on your eligibility.</p>
-            <p>Loan terms can be anywhere between 6 to 18 months, depending on the type of loan and the lender’s specifications.</p>
+            <p>With MyBorrowing you can apply for short-term loans between $500 and $2,000 or secured personal loans between $2,100 and $10,00, depending on your eligibility.</p>
+            <p>Loan terms can be anywhere between 6 to 36 months, depending on the type of loan and the lender’s specifications.</p>
           </div>
 
           <div class="side-accordion-content d-none">
@@ -63,11 +63,11 @@
 						<li>There is NO Interest charged on our loans between $500 and up to $2000</li>
 						<li>The easiest way to see how much your loan would cost is to go to our Loan Costs page.</li>
 					</ul>
-					<p>$2,001 up to $4,600 Personal Loans</p>
+					<p>$2,001 up to $10,000 Personal Loans</p>
 					<ul>
 						<li>$400 Establishment Fee</li>
-						<li>Interest at 47.5% per annum charged on a reducing balance basis.</li>
-						<li>APR is 47.5%, Comparisson rate is 65.88%</li>
+						<li>Interest at 48% per annum charged on a reducing balance basis.</li>
+						<li>APR is 48%, Comparisson rate is 65.88%</li>
 						<li>The easiest way to see how much your loan would cost is to go to our Loan Costs page.</li>
 					</ul>
           </div>
@@ -124,11 +124,11 @@
     <li>There is NO Interest charged on our loans between $500 and up to $2000</li>
     <li>The easiest way to see how much your loan would cost is to go to our Loan Costs page.</li>
   </ul>
-  <p>$2,001 up to $4,600 Personal Loans</p>
+  <p>$2,001 up to $10,000 Personal Loans</p>
   <ul>
     <li>$400 Establishment Fee</li>
-    <li>Interest at 47.5% per annum charged on a reducing balance basis.</li>
-    <li>APR is 47.5%, Comparisson rate is 65.88%</li>
+    <li>Interest at 48% per annum charged on a reducing balance basis.</li>
+    <li>APR is 48%, Comparisson rate is 65.88%</li>
     <li>The easiest way to see how much your loan would cost is to go to our Loan Costs page.</li>
   </ul>';
 	$faqObject = new ArrayItem($faqTitle, $faqCategory,$faqBody);
