@@ -878,7 +878,7 @@ nav.fill ul li a:hover:after {
 
 /* Accordion */
 .accordion-item{
-	background: var(--white);
+	background: none;
 }
 
 .accordion-item:hover{
@@ -925,7 +925,7 @@ nav.fill ul li a:hover:after {
 }
 
 .accordion-header.collapsed {
-	background-color: unset;
+	background-color: white;
 }
 
 
