@@ -27,7 +27,7 @@ get_header(); ?>
 
           <div class=" row">
           
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-0" aria-expanded="false" class="px-4 accordion-header collapsed" data-target="#faq-default-0" data-toggle="collapse" id="faq-default-0-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-0" aria-expanded="false" class="panel-title light collapsed" data-target="#faq-default-0" href="#faq-default-0" data-toggle="collapse">
@@ -44,7 +44,7 @@ get_header(); ?>
 				</div>	
 			</div>				
 			
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-1" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-1" data-toggle="collapse" id="faq-default-1-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-1" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-1" href="#faq-default-1" data-toggle="collapse">
@@ -61,7 +61,7 @@ get_header(); ?>
 				</div>	
 			</div>				
 			
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-2" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-2" data-toggle="collapse" id="faq-default-2-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-2" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-2" href="#faq-default-2" data-toggle="collapse">
@@ -78,7 +78,7 @@ get_header(); ?>
 				</div>	
 			</div>				
 			
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-3" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-3" data-toggle="collapse" id="faq-default-3-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-3" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-3" href="#faq-default-3" data-toggle="collapse">
@@ -109,7 +109,7 @@ get_header(); ?>
 				</div>	
 			</div>				
 			
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-4" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-4" data-toggle="collapse" id="faq-default-4-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-4" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-4" href="#faq-default-4" data-toggle="collapse">
@@ -126,7 +126,7 @@ get_header(); ?>
 				</div>	
 			</div>				
 			
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-5" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-5" data-toggle="collapse" id="faq-default-5-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-5" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-5" href="#faq-default-5" data-toggle="collapse">
@@ -150,7 +150,7 @@ get_header(); ?>
 
           <div class=" row">
           
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-7" aria-expanded="false" class="px-4 accordion-header collapsed" data-target="#faq-default-7" data-toggle="collapse" id="faq-default-7-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-7" aria-expanded="false" class="panel-title light collapsed" data-target="#faq-default-7" href="#faq-default-7" data-toggle="collapse">
@@ -168,7 +168,7 @@ get_header(); ?>
 				</div>	
 			</div>				
 			
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-8" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-8" data-toggle="collapse" id="faq-default-8-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-8" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-8" href="#faq-default-8" data-toggle="collapse">
@@ -185,7 +185,7 @@ get_header(); ?>
 				</div>	
 			</div>				
 			
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-9" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-9" data-toggle="collapse" id="faq-default-9-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-9" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-9" href="#faq-default-9" data-toggle="collapse">
@@ -202,7 +202,7 @@ get_header(); ?>
 				</div>	
 			</div>				
 			
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-12" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-12" data-toggle="collapse" id="faq-default-12-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-10" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-12" href="#faq-default-12" data-toggle="collapse">
@@ -223,7 +223,7 @@ get_header(); ?>
 				</div>	
 			</div>				
 			
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-10" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-10" data-toggle="collapse" id="faq-default-10-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-10" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-10" href="#faq-default-10" data-toggle="collapse">
@@ -240,7 +240,7 @@ get_header(); ?>
 				</div>	
 			</div>				
 			
-			<div class="col-12 p-2 accordion-item filterDiv ">
+			<div class="col-12 p-1 accordion-item filterDiv ">
         <div aria-controls="faq-default-11" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-11" data-toggle="collapse" id="faq-default-11-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-11" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-11" href="#faq-default-11" data-toggle="collapse">
