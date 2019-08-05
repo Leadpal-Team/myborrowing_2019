@@ -10,7 +10,7 @@
 
 
 	/**** Website Global Constants ******/
-	define("APPLICATION_URL", 'apply.myborrowing.com.au/mb/apply');
+	define("APPLICATION_URL", 'https://apply.myborrowing.com.au/mb/apply');
 	define('DIRECTORY', get_template_directory_uri() );
 	define('USER_IP', real_ip() );
 	define('LAST_IP_DIGIT', substr( USER_IP , -1));
