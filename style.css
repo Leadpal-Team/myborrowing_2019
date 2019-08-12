@@ -584,6 +584,8 @@ button:hover{
 
 .btn-link__warning svg {
 	fill: var(--color-black);
+	height: 20px;
+	width: 20px;
 }
 
 .btn-link__warning:hover svg {
