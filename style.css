@@ -582,6 +582,14 @@ button:hover{
 	cursor: pointer;
 }
 
+.btn-link__warning svg {
+	fill: var(--color-black);
+}
+
+.btn-link__warning:hover svg {
+	fill: var(--color-primary);
+}
+
 .btn-link__warning-alt{
 	color: var(--color-white);
 	background-color: unset;
