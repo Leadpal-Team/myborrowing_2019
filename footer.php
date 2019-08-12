@@ -48,7 +48,7 @@
 						</div>
 
 						<div class="my-auto text-center text-lg-left">
-							<a class="btn-link__warning px-2" data-toggle="modal" data-target="#borrowingWarningModal">WARNING ABOUT BORROWING</a>
+							<a class="btn-link__warning px-2" data-toggle="modal" data-target="#borrowingWarningModal"><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/exclamation-triangle.svg'); ?>WARNING ABOUT BORROWING</a>
 						</div>
 
 					</div>
