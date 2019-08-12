@@ -58,7 +58,7 @@
 						<p class="ts-6">Mifin Pty Ltd 2019 | Australian Credit Licence 389029</p>
 					</div>
 
-					<p class="ts-6">
+					<p class="ts-6 color--dark-grey">
 						Disclaimer: Mifin Pty Ltd 2019 (ABN 14 132 429 595) is a Licensed Financial Broker which is an accredited representative of Marketplace Finance (ACL No. 487 316). We are a referral service only and do not directly fund any credit product. Your request will be referred to a third party lender who will contact you directly to ascertain if they can facilitate your requirements. The third party will appraise you of their fees,charges and terms before you would enter any contract with them. We may receive a referral fee (amount not ascertainable) from the third party depending on the outcome of their dealings with you. It is recommended that you obtain independent legal and financial advice before taking up any products that you may be referred to and offered.
 						</p>
 					
