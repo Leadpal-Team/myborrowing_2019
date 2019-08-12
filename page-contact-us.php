@@ -36,7 +36,7 @@ get_header(); ?>
                 </div>
                 <div class="d-inline my-auto p-3">
                   <p class="bold mb-1">Call Us</p>
-                  <a href="tel:1200 762 731" class="color--black ts-6 light mb-0">1200 762 731</a>
+                  <a href="tel:1800 825 805" class="color--black ts-6 light mb-0">1800 825 805</a>
                 </div>
               </div>
 
@@ -46,7 +46,7 @@ get_header(); ?>
                 </div>
                 <div class="d-inline my-auto p-3">
                   <p class="bold mb-1">Email Us</p>
-                  <a href="mailto:info@cashsmart.net" class="color--black ts-6 light mb-0">info@cashsmart.net</a>
+                  <a href="mailto:apply@myborrowing.com.au" class="color--black ts-6 light mb-0">apply@myborrowing.com.au</a>
                 </div>
               </div>
 

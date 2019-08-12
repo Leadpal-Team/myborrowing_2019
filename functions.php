@@ -22,7 +22,7 @@
 	define('COMPANY_INFORMATION_TRADING_NAME', 'Company Pty Ltd');
 
 	//Loan Variables
-	define('SACC_LOAN_MIN', "200");
+	define('SACC_LOAN_MIN', "500");
 	define('SACC_LOAN_MAX', "2000");
 	define('MACC_LOAN_MIN', "2000");
 	define('MACC_LOAN_MAX', "5000");

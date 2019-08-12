@@ -24,8 +24,8 @@
 
 						<div class="col-12 col-lg-6 my-auto white py-3">
 							<ul class="mb-lg-0 pl-0 social-list no-bullets d-flex flex-column flex-lg-row justify-content-end list--no-bullets text-center text-lg-left">
-								<li class="my-2"><a class="social-link px-lg-4 color--white ts-6" target="_blank" href="tel:1300 762 731"><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/phone.svg'); ?>1300 762 731</a></li>
-								<li class="my-2"><a class="social-link color--white ts-6" target="_blank" href="mailto:info@cashsmart.net"><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/envelope.svg'); ?>info@cashsmart.net</a></li>
+								<li class="my-2"><a class="social-link px-lg-4 color--white ts-6" target="_blank" href="tel:1800 825 805"><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/phone.svg'); ?>1800 825 805</a></li>
+								<li class="my-2"><a class="social-link color--white ts-6" target="_blank" href="mailto:apply@myborrowing.com.au"><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/envelope.svg'); ?>apply@myborrowing.com.au</a></li>
 							</ul>
 						</div>
 
@@ -55,8 +55,8 @@
 
 					<div class="d-flex flex-column flex-lg-row justify-content-between color--dark-grey mt-4 text-center text-lg-left">
 						<p class="ts-6">© Copyright 2018 cashsmart.net. All Right Reserved.</p>
-						<p class="ts-6">ABN 37 111 606 127</p>
-						<p class="ts-6">Cash Smart Pty Ltd 2019 | Australian Credit Licence 388992</p>
+						<p class="ts-6">ABN 14 132 429 595</p>
+						<p class="ts-6">Mifin Pty Ltd 2019 | Australian Credit Licence 389029</p>
 					</div>
 					
 				</div>

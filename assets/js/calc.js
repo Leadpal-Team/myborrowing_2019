@@ -100,54 +100,84 @@ function numberWithCommas(x) {
     return parts.join(".");
 }
 
-function calculatePayments(loanAmount, loanTerm){
+function calculatePayments(loan, term){
 
-		//How many payment periods exist over the term
-		let months = loanTerm;
-		let fortnights = Math.round(loanTerm * 4.33 / 2);
-		let weeks = Math.round(loanTerm * 4.33);
-	
-		//Average periods per year
-		const monthsPerYear = 12;
-		const fortnightsPerYear = 26.09;
-		const weeksPerYear = 52.18;
+	let carLoanPage = document.getElementById('car-loan-page');
 
-		//Our default interest rate in % and establishment fee, for saccs
-		let  interestRate = loanAmount * .04 * loanTerm;
-		let  establishmentFee = loanAmount * .2;
+ //We use a different calculation for car loan pages
+	if(carLoanPage){
 
-		//Sacc
-		if(loanAmount <= 2000){
-			//We use a manual calculation for SACC loans and break early
-			const monthlyPayments = (loanAmount + establishmentFee + interestRate) / loanTerm ;
-			const fortnightlyPayments = (loanAmount + establishmentFee + interestRate) / 25;
-			const weeklyPayments = (loanAmount + establishmentFee + interestRate) / 50;
-			const results = [monthlyPayments, fortnightlyPayments, weeklyPayments];
-			return results;
-		}
-		//MACC
-		else if(loanAmount > 2000 && loanAmount < 5000){
-			interestRate = .48;
-			establishmentFee = 400;
-		}
+	 //Repayments calculated monthly
+	 let rate = 0.0572 / 12;
+	 term = term * 12;
 
-		//LACC
-		else{
-			interestRate = .48;
-			establishmentFee = 0;
-			//establishmentFee =  loanAmount * (loanTerm * 0.01)
-		}
+	 let monthlyRepayments =  loan * (rate / (1 - Math.pow(1 + rate, -term)));
+	 return [monthlyRepayments, monthlyRepayments / 2, monthlyRepayments / 4];
+ } 
 
-		//The total amount to be repaid
-		let principle = loanAmount + establishmentFee;
+ //How many payment periods exist over the term
+ let months = term;
+ let fortnights = Math.round(term * 4.33 / 2);
+ let weeks = Math.round(term * 4.33);
 
-		//We calculate the payments using the excel repayment formula
-		const monthlyPayments = pmt(interestRate / monthsPerYear, months, -principle, 0, 2)
-		const fortnightlyPayments = pmt(interestRate / fortnightsPerYear, fortnights, -principle, 0, 2);
-		const weeklyPayments = pmt(interestRate / weeksPerYear, weeks, -principle, 0, 2);
-		const results = [monthlyPayments, fortnightlyPayments, weeklyPayments];
-		return results;
+ //Average periods per year
+ const monthsPerYear = 12;
+ const fortnightsPerYear = 26.09;
+ const weeksPerYear = 52.18;
 
+ //APR
+ let maccInterestRate = .478;
+ let laccInterestRate = .2124;
+
+ //SACC
+ if (loan <= 2000) {
+
+	 let  establishmentFee = loan * 0.2;
+	 let  interest = loan * 0.04 * term;
+
+	 //Repayments
+	 let monthlyPayments = (loan + establishmentFee + interest) / term ;
+	 let fortnightlyPayments = (loan + establishmentFee + interest) / 25;
+	 let weeklyPayments = (loan + establishmentFee + interest) / 50;
+
+	 if(term < 12){
+		 fortnightlyPayments = monthlyPayments / 2;
+		 weeklyPayments = monthlyPayments / 4;
+	 }
+
+	 results = [monthlyPayments, fortnightlyPayments, weeklyPayments];
+ }
+ //MACC
+ else if (loan > 2000 && loan <= 4600) {
+
+	 //Amount to be repaid, principle + establishment fee
+	 var principle = loan + 400;
+
+	 //Repayments
+	 let monthlyPayments = pmt(maccInterestRate / monthsPerYear, months, -principle, 0, 2);
+	 let fortnightlyPayments = pmt(maccInterestRate / fortnightsPerYear, fortnights, -principle, 0, 2);
+	 let weeklyPayments = pmt(maccInterestRate / weeksPerYear, weeks, -principle, 0, 2);
+
+
+	 results = [monthlyPayments, fortnightlyPayments, weeklyPayments];
+ }	
+ //LACC
+ else{
+	 //We dont allow values between 4700-4900
+	 if (loan == 4700 || loan == 4800 || loan == 4900) {loan = 5000;}
+
+	 //Amount to be repaid, principle + establishment fee
+	 var principle = loan + (loan * (term * 0.01));
+
+	 //Repayments
+	 let monthlyPayments = pmt(laccInterestRate / monthsPerYear, months, -principle, 0, 2)
+	 let fortnightlyPayments = pmt(laccInterestRate / fortnightsPerYear, fortnights, -principle, 0, 2);
+	 let weeklyPayments = pmt(laccInterestRate / weeksPerYear, weeks, -principle, 0, 2);
+
+	 results = [monthlyPayments, fortnightlyPayments, weeklyPayments];
+ }
+
+ return results;
 }
 
 //The excel payment function

@@ -44,7 +44,7 @@
 
           <div class="side-accordion-content">
             <h3 class="extra-bold">How much can I borrow?</h3>
-            <p>With MyBorrowing you can apply for short-term loans between $500 and $2,000 or secured personal loans between $2,100 and $10,00, depending on your eligibility.</p>
+            <p>With MyBorrowing you can apply for short-term loans between $500 and $2,000, secured personal loans between $2,100 and $4,600, or loan term loans from $5,000 to $10,000 depending on your eligibility.</p>
             <p>Loan terms can be anywhere between 6 to 36 months, depending on the type of loan and the lender’s specifications.</p>
           </div>
 
@@ -63,13 +63,18 @@
 						<li>There is NO Interest charged on our loans between $500 and up to $2000</li>
 						<li>The easiest way to see how much your loan would cost is to go to our Loan Costs page.</li>
 					</ul>
-					<p>$2,001 up to $10,000 Personal Loans</p>
+					<p>$2,001 up to $4,600 Medium Personal Loans</p>
 					<ul>
 						<li>$400 Establishment Fee</li>
 						<li>Interest at 48% per annum charged on a reducing balance basis.</li>
-						<li>APR is 48%, Comparisson rate is 65.88%</li>
+						<li>APR is 48%, Comparisson rate is 67.41%</li>
 						<li>The easiest way to see how much your loan would cost is to go to our Loan Costs page.</li>
 					</ul>
+          <p>$5,000 up to $10,000 Large Personal Loans</p>
+          <ul>
+            <li>Interest at 48% per annum charged on a reducing balance basis.</li>
+            <li>APR is 21.24%, Comparisson rate is 48%</li>
+          </ul>
           </div>
 
           <div class="side-accordion-content d-none">
@@ -78,8 +83,8 @@
           </div>
 
           <div class="side-accordion-content d-none">
-            <h3 class="extra-bold">How much can I borrow?</h3>
-            <p>Our friendly team is here to help! If you have any questions, feel free to call us on 1300 762 731 or email us directly at <a href="info@cashsmart.net">info@cashsmart.net</a>.</p>
+            <h3 class="extra-bold">How do I contact MyBorrowing?</h3>
+            <p>Our friendly team is here to help! If you have any questions, feel free to call us on 1800 825 805 or email us directly at <a href="apply@myborrowing.com.au">apply@myborrowing.com.au</a>.</p>
           </div>
 
         </div>

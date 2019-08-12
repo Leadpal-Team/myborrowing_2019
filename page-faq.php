@@ -56,7 +56,8 @@ get_header(); ?>
 
 				<div aria-labelledby="faq-default-1-heading" class="collapse" data-parent=".accordion" id="faq-default-1">
 					<div class="card-body text-left pt-0">
-					  <p class="accordion-content mb-0 ">With MyBorrowing you can apply for short-term loans between $500 and $2,000 or secured personal loans between $2,100 and $4,600, depending on your eligibility. Loan terms can be anywhere between 6 to 18 months, depending on the type of loan and the lender’s specifications.</p>
+					  <p class="accordion-content ">With MyBorrowing you can apply for short-term loans between $500 and $2,000, secured personal loans between $2,100 and $4,600, or loan term loans from $5,000 to $10,000 depending on your eligibility.</p>
+            <p clas="mb-0">Loan terms can be anywhere between 6 to 36 months, depending on the type of loan and the lender’s specifications.</p>
 					</div>
 				</div>	
 			</div>				
@@ -98,13 +99,18 @@ get_header(); ?>
 						<li>There is NO Interest charged on our loans between $500 and up to $2000</li>
 						<li>The easiest way to see how much your loan would cost is to go to our Loan Costs page.</li>
 					</ul>
-					<p>$2,001 up to $4,600 Personal Loans</p>
+					<p>$2,001 up to $4,600 Medium Personal Loans</p>
 					<ul>
 						<li>$400 Establishment Fee</li>
-						<li>Interest at 47.5% per annum charged on a reducing balance basis.</li>
-						<li>APR is 47.5%, Comparisson rate is 65.88%</li>
+						<li>Interest at 48% per annum charged on a reducing balance basis.</li>
+						<li>APR is 48%, Comparisson rate is 67.41%</li>
 						<li>The easiest way to see how much your loan would cost is to go to our Loan Costs page.</li>
 					</ul>
+          <p>$5,000 up to $10,000 Large Personal Loans</p>
+          <ul>
+            <li>Interest at 48% per annum charged on a reducing balance basis.</li>
+            <li>APR is 21.24%, Comparisson rate is 48%</li>
+          </ul>
 					</div>
 				</div>	
 			</div>				
@@ -138,7 +144,7 @@ get_header(); ?>
 
 				<div aria-labelledby="faq-default-5-heading" class="collapse" data-parent=".accordion" id="faq-default-5">
 					<div class="card-body text-left pt-0">
-						<p class="accordion-content mb-0 ">Our friendly team is here to help! If you have any questions, feel free to call us on 1300 762 731 or email us directly at <a href="info@cashsmart.net">info@cashsmart.net</a>.</p>
+						<p class="accordion-content mb-0 ">Our friendly team is here to help! If you have any questions, feel free to call us on 1800 825 805 or email us directly at <a href="apply@myborrowing.com.au">apply@myborrowing.com.au</a>.</p>
 					</div>
 				</div>	
 			</div>				
@@ -154,7 +160,7 @@ get_header(); ?>
         <div aria-controls="faq-default-7" aria-expanded="false" class="px-4 accordion-header collapsed" data-target="#faq-default-7" data-toggle="collapse" id="faq-default-7-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-7" aria-expanded="false" class="panel-title light collapsed" data-target="#faq-default-7" href="#faq-default-7" data-toggle="collapse">
-						How quickly can I get approved?
+						How do I pay my loan back?
 						</a>
           </h5>
           
@@ -162,8 +168,7 @@ get_header(); ?>
 
 				<div aria-labelledby="faq-default-7-heading" class="collapse" data-parent=".accordion" id="faq-default-7" style="">
 					<div class="card-body text-left pt-0">
-					  <p class="accordion-content mb-0 ">We will process your application the same business day that we have all your information as described on “How it Works”.
-	If you want to borrow again in the future it’ll be easier and quicker as you’ll have built up a history with us.</p>
+					  <p class="accordion-content mb-0 ">It’s important to pay back a personal loan on time so that you don’t incur extra costs or have any defaults added to your credit record! If a lender approves you for a loan, ask your lender to help you set up a direct debit schedule in line with your income – the amount you need to repay and when you receive your income are important here.</p>
 					</div>
 				</div>	
 			</div>				
@@ -172,7 +177,7 @@ get_header(); ?>
         <div aria-controls="faq-default-8" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-8" data-toggle="collapse" id="faq-default-8-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-8" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-8" href="#faq-default-8" data-toggle="collapse">
-						My pay day or my bank details have been changed
+						What if I am experiencing financial hardship?
 						</a>
           </h5>
           
@@ -180,7 +185,7 @@ get_header(); ?>
 
 				<div aria-labelledby="faq-default-8-heading" class="collapse" data-parent=".accordion" id="faq-default-8">
 					<div class="card-body text-left pt-0">
-					  <p class="accordion-content mb-0 ">If any details have changed, it’s not a problem, just call us on 1300 762 731 and we’ll be able to sort it out with you.</p>
+					  <p class="accordion-content mb-0 ">We understand your circumstances may change after taking out a loan. If you are experiencing financial hardship, you should contact your lender immediately, and they may be able to vary your contract.</p>
 					</div>
 				</div>	
 			</div>				
@@ -189,7 +194,7 @@ get_header(); ?>
         <div aria-controls="faq-default-9" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-9" data-toggle="collapse" id="faq-default-9-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-9" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-9" href="#faq-default-9" data-toggle="collapse">
-						What if I think I might have difficulty making a payment?
+						What happens if I stop making my repayments?
 						</a>
           </h5>
           
@@ -197,7 +202,7 @@ get_header(); ?>
 
 				<div aria-labelledby="faq-default-9-heading" class="collapse" data-parent=".accordion" id="faq-default-9">
 					<div class="card-body text-left pt-0">
-					  <p class="accordion-content mb-0 ">We know things can change. If you are having problems, we always recommend that you give us a call to discuss things and we’ll do our best to help. So long as you keep us informed we’ll find a way to help.</p>
+					  <p class="accordion-content mb-0 ">If you stop making your repayments, you run the risk of having your default listed on your credit file which could have a severe effect on your credit history and stay there for up to 7 years. Your account could be passed on to an external debt collection agency if your circumstances suddenly change, contact your lender and explain your situation to them, they’re usually pretty understanding and will try to help where they can.</p>
 					</div>
 				</div>	
 			</div>				
@@ -206,7 +211,7 @@ get_header(); ?>
         <div aria-controls="faq-default-12" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-12" data-toggle="collapse" id="faq-default-12-heading">
         
 					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-10" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-12" href="#faq-default-12" data-toggle="collapse">
-						What happens if I do not repay on time?
+						How quickly can I apply for another loan?
 						</a>
           </h5>
           
@@ -214,48 +219,11 @@ get_header(); ?>
 
 				<div aria-labelledby="faq-default-12-heading" class="collapse" data-parent=".accordion" id="faq-default-12">
 					<div class="card-body text-left pt-0">
-					<p class="accordion-content mb-0 ">If you can’t repay on time please let us know immediately so we can reschedule or adjust the repayment. The fee for missing a repayment or for dishonouring one is $30. If we agree to a request to reduce a payment amount the fee to do so is $20.
-	</p><p>
-	We’ll always try to contact you if there is a missed or dishonored payment to give you an opportunity to catch up or to work out an affordable arrangement.
-	</p><p>
-	If we can’t recover a debt after 60 days overdue we may pass it over to our external collections partner and you may have a default placed on your credit file that impacts your credit history for up to 5 years. So it’s best to always communicate with us if you are having trouble repaying so we can work something out together.</p>
+					<p class="accordion-content mb-0 ">You can apply for our lender-finding service at any time. We’ll do our best to find you a lender that is ready to give you a go</p>
 					</div>
 				</div>	
 			</div>				
-			
-			<div class="col-12 p-1 accordion-item filterDiv ">
-        <div aria-controls="faq-default-10" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-10" data-toggle="collapse" id="faq-default-10-heading">
-        
-					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-10" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-10" href="#faq-default-10" data-toggle="collapse">
-						Can I email through my bank statement?
-						</a>
-          </h5>
-          
-				</div>
-
-				<div aria-labelledby="faq-default-10-heading" class="collapse" data-parent=".accordion" id="faq-default-10">
-					<div class="card-body text-left pt-0">
-					  <p class="accordion-content mb-0 ">No, we do not accept bank statements that have been emailed through to us. Bank statements must be submitted through the secured banking service on our application form. You will need to have online banking set up to do this.</p>
-					</div>
-				</div>	
-			</div>				
-			
-			<div class="col-12 p-1 accordion-item filterDiv ">
-        <div aria-controls="faq-default-11" aria-expanded="false" class=" collapsed px-4 accordion-header" data-target="#faq-default-11" data-toggle="collapse" id="faq-default-11-heading">
-        
-					<h5 class="accordion-title mb-0 panel-title color--primary text-left p-3"><a aria-controls="faq-11" aria-expanded="" class="collapsed panel-title light" data-target="#faq-default-11" href="#faq-default-11" data-toggle="collapse">
-						What if my loan is not approved?
-						</a>
-          </h5>
-          
-				</div>
-
-				<div aria-labelledby="faq-default-11-heading" class="collapse" data-parent=".accordion" id="faq-default-11">
-					<div class="card-body text-left pt-0">
-					  <p class="accordion-content mb-0 ">If we cannot approve your loan, there is a chance another lender might still be able to offer you credit. All lenders have to follow finance industry’s guidelines but some may be more or less lenient than us. We’ll let you know either way and if another lender can help you out we will refer the application onto them and they will be in contact with you directly.</p>
-					</div>
-				</div>	
-			</div>				
+										
 			          </div>
 
         </div>
