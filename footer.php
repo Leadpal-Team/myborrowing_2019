@@ -48,16 +48,14 @@
 						</div>
 
 						<div class="my-auto text-center text-lg-left">
-							<a class="btn-link__warning px-2" data-toggle="modal" data-target="#borrowingWarningModal">WARNING ABOUT BORROWING</a>
+							<a class="btn-link__warning px-2" data-toggle="modal" data-target="#borrowingWarningModal"><?php  echo file_get_contents(DIRECTORY . '/assets/svgs/solid/exclamation-triangle.svg'); ?>WARNING ABOUT BORROWING</a>
 						</div>
 
 					</div>
 
-					<div class="d-flex flex-column flex-lg-row justify-content-between color--dark-grey mt-4 text-center text-lg-left">
-						<p class="ts-6">© Copyright 2018 cashsmart.net. All Right Reserved.</p>
-						<p class="ts-6">ABN 14 132 429 595</p>
-						<p class="ts-6">Mifin Pty Ltd 2019 | Australian Credit Licence 389029</p>
-					</div>
+					<p class="ts-6 color--dark-grey">
+						Disclaimer: MyBorrowing is a trading name of MiFin Pty Ltd (ABN 14 132 429 595), Australian Credit Licence 389029. We are a referral service only and do not directly fund any credit product. Your request will be referred to a third party lender who will contact you directly to ascertain if they can facilitate your requirements. The third party will appraise you of their fees,charges and terms before you would enter any contract with them. We may receive a referral fee (amount not ascertainable) from the third party depending on the outcome of their dealings with you. It is recommended that you obtain independent legal and financial advice before taking up any products that you may be referred to and offered.
+						</p>
 					
 				</div>
 			</section>
